@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    text-align: center;
+}
+
+.Titulocontador {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    margin-bottom: 50px;
+    font-size: 62px;
+}
+
+.contador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+
+#contador {
+    font-size: 72px;
+    width: 22%;
+    padding: 25px;
+    margin-bottom: 55px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(0, 183, 255);
+    box-shadow: 0 0 15px #000000;
+} 
+  
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+footer div {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+footer .textoFooter{
+    font-size: 14px !important;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px){
+    .Titulocontador {
+        font-size: 22px;
+    }
+
+    #contador {
+    width: 45%;
+    font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px){
+
+    .Titulocontador {
+        font-size: 42px;
+    }
+
+    #contador {
+    width: 45%;
+    font-size: 27px;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 599px){
+
+    .Titulocontador {
+        font-size: 42px;
+    }
+
+    #contador {
+    width: 45%;
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 500px){
+
+    .Titulocontador {
+        font-size: 42px;
+    }
+
+    #contador {
+    width: 38%;
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 599px){
+
+    .Titulocontador {
+        font-size: 42px;
+    }
+
+    #contador {
+    width: 32%;
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 599px) and (max-width: 767px){
+
+    .Titulocontador {
+        font-size: 42px;
+    }
+
+    #contador {
+    width: 32%;
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1020px){
+
+    .Titulocontador {
+        font-size: 52px;
+    }
+
+    #contador {
+    width: 25%;
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1366px){
+
+    .Titulocontador {
+        font-size: 62px;
+    }
+
+    #contador {
+    width: 23%;
+    font-size: 42px;
+    }
+}
+@media screen and (min-width: 1366px){
+
+    .Titulocontador {
+        font-size: 62px;
+    }
+
+    #contador {
+    width: 17%;
+    font-size: 42px;
+    }
+}
+@media screen and (min-width: 1550px){
+
+    .Titulocontador {
+        font-size: 62px;
+    }
+
+    #contador {
+    width: 15%;
+    font-size: 42px;
+    }
+}
